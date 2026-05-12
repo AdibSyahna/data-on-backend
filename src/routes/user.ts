@@ -5,8 +5,6 @@ import { BaseRouterHandler } from "./base";
 
 export class UserRouter extends BaseRouterHandler {
     private readonly PROFILE_DIR: string = process.env.PROFILE_DIR || "profiles";
-    private readonly STATIC_PATH: string = `${process.env.EXPRESS_STATIC_PATH || "/public"}/${this.PROFILE_DIR}`;
-    private readonly DEFAULT_PROFILE_IMAGE: string = process.env.PROFILE_DEFAULT_IMAGE || "default.png";
 
     public constructor() {
         super();

@@ -1,4 +1,4 @@
-import express, { NextFunction } from 'express';
+import express from 'express';
 import path from 'path';
 import { rateLimit, RateLimitRequestHandler } from 'express-rate-limit';
 import type { JWTHandler } from './jwt';

@@ -1,6 +1,4 @@
 import { Router, Request, Response } from "express";
-import validator from 'validator';
-import md5 from 'md5';
 import { BaseRouterHandler } from "./base";
 
 export class GuestRouter extends BaseRouterHandler {
